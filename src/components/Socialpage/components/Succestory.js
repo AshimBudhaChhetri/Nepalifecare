@@ -38,7 +38,7 @@ const Succestory = () => {
           <div className="col-md-12">
             <div className="succestory-team-header text-center">
               <span className="succestory-team-small-text">
-                Positive Impacts On Mental Health
+                Positive Impacts On The Mental Health
               </span>
               <h2 className="succestory-team-title">Success Stories</h2>
             </div>
