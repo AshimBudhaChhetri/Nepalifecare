@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Teko:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.nav-bar-section {
+
+    height: 100px;
+    
+    
+    
+   
+    
+}
+
+.nav-bar-section .container {
+    padding-top: 17px;
+}
+
+.nav-bar-section .logo-div {
+
+    width: 250px;
+    height: 100px;
+    
+        
+    text-align: center;
+    margin-top: -75px;
+   
+}
+
+.nav-bar-section .logo-div img {
+    height: 180px;
+    width: 200px;
+    
+   
+}
+
+.navbar-toggler {
+    color: white !important;
+    
+    border: 3px solid white;
+
+}
+ 
+.navbar-toggler-icon {
+    background-color: white !important;
+    
+}
+
+
+
+
+.nav-link {
+
+    margin-right: 22px;
+    font-family: 'Poppins',sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 16px;
+    
+}
+
+.nav-bar-section.scrolled {
+    background-color: whitesmoke;
+}
+
+
+
+
+button {
+    position: relative;
+    background-color: #FF8C00;
+    padding: 5px 10px;
+
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.navlink {
+    font-weight: 500;
+}
+
+.nav-item a button span {
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+
+   
+    .nav-bar-section .logo-div  {
+       
+        width: 100px;
+        margin-top: -9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+
+    }
+    
+    .nav-bar-section .logo-div img {
+        height: 160px;
+        width: 160px;
+        
+    }
+    .nav-bar-section .container {
+        padding-top: 0px;
+    }
+
+    /* Add this media query for mobile devices */
+@media only screen and (max-width: 767px) {
+
+    /* Other existing styles for mobile view */
+
+    .navbar-toggler-icon {
+        background-color: white !important;
+    }
+
+    /* Add this style to set the background color for mobile navigation menu */
+    .navbar-collapse {
+        background-color: white;
+       text-align:center;
+    }
+
+    .nav-link {
+        /* Change the color of the navigation items in mobile view */
+        color: black;
+    }
+
+    /* Add this style to set the background color for the active state of navigation items */
+    .navbar-nav .nav-item.active {
+        background-color: whitesmoke;
+    }
+
+    /* Add this style to set the color for the active state of navigation items */
+    .navbar-nav .nav-item.active .nav-link {
+        color: black;
+    }
+
+}
+
+    
+    
+
+
+
+}

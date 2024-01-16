@@ -1,0 +1,28 @@
+.sociallink-main-div {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.sociallink-main-div .sociallink-header {
+    padding-bottom: 40px;
+    
+}
+
+.sociallink-main-div .sociallink-header .sociallink-small-text {
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    color: #ef5f34;
+}
+
+.sociallink-main-div .sociallink-header .sociallink-title {
+    font-size: 20px;
+    font-family:"Roboto Slab", serif ;
+    color: #212158;
+}
+
+.logoo-social {
+    margin: 0 30px;
+    cursor: pointer;
+}
+

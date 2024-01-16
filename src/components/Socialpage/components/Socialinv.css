@@ -1,0 +1,21 @@
+.socialinv-main-div {
+    padding-top: 40px;
+}
+
+
+.socialinv-main-div .socialinv-header {
+    padding-bottom: 40px;
+    
+}
+
+.socialinv-main-div .socialinv-header .socialinv-small-text {
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    color: #ef5f34;
+}
+
+.socialinv-main-div .socialinv-header .socialinv-title {
+    font-size: 40px;
+    font-family:"Roboto Slab", serif ;
+    color: #212158;
+}

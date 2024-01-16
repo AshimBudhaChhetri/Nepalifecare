@@ -1,0 +1,108 @@
+.guide-main-div {
+    padding-top: 60px;
+}
+
+
+.guide-main-div .guide-header {
+    padding-bottom: 40px;
+    
+}
+
+.guide-main-div .guide-header .guide-small-text {
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    color: #ef5f34;
+}
+
+.guide-main-div .guide-header .guide-title {
+    font-size: 40px;
+    font-family:"Roboto Slab", serif ;
+    color: #212158;
+}
+
+.overview-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+
+
+.overview-content .img-div {
+    height: 350px;
+    width: 420px;
+    position: relative;
+
+    
+    
+}
+
+
+.overview-content .img-div .title-box {
+    width: 100px;
+    position: absolute;
+    height: 30px;
+    background-color: #ef5f34;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.overview-content .img-div .title-box-g {
+    width: 100px;
+    position: absolute;
+    height: 30px;
+    background-color: #5dc4b8;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.overview-content .img-div img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+   
+    
+}
+
+
+
+.overview-content .overview-title {
+    color: #212158;
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;      
+    line-height: 35px;
+    margin-top: 0;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-left: 17px; /* Adjusted padding to align with overview-content-section */
+    padding-right: 12px;
+}
+
+.overview-content .overview-content-section {
+    padding-left: 17px; /* Adjusted padding to align with overview-title */
+    padding-right: 17px;
+    line-height: 22px;
+}
+
+
+.overview-content .featured-text {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding-left: 17px; /* Adjusted padding to align with overview-title */
+}

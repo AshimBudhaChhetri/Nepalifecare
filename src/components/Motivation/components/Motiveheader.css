@@ -1,0 +1,58 @@
+.Motivheader-main {
+    position: relative;
+    margin-top: 100px;
+    background-image: url(https://media.istockphoto.com/id/1424987933/photo/coworkers-with-stacked-hands-at-the-office.jpg?s=2048x2048&w=is&k=20&c=o0v_lhQ4MktVo8O44JBHtX6I4SQfvvaYm5o-_s_sOxY=);
+    background-size: cover;
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.Motivheader-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.Motivheader-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative; /* Add relative positioning to the image */
+    z-index: 0;
+}
+
+.Motivheadercontents .Motivheader-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    position: relative; /* Add relative positioning to the title */
+    z-index: 2; /* Increase the z-index to ensure the title is above the overlay */
+    color: white;
+}
+
+.Motivheadercontents .Motivheader-sub {
+    background-color: #FF8C00;
+    position: relative;
+    z-index: 2;
+    border-radius: 7px;
+    padding: 1px 6px ;
+    border: none;
+    
+}
+
+.Motivheader-sub span {
+    color: white;
+    font-family: "Poppins", serif;
+
+}

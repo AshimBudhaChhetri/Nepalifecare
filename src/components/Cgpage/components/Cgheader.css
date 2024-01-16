@@ -1,0 +1,58 @@
+.Cgheader-main {
+    position: relative;
+    margin-top: 100px;
+    background-image: url(https://www.teachfornepal.org/media/images/157d095d-bfe7-415e-889d-fce541d92970.jpg);
+    background-size: cover;
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.Cgheader-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.Cgheader-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative; /* Add relative positioning to the image */
+    z-index: 0;
+}
+
+.Cgcontents .Cg-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    position: relative; /* Add relative positioning to the title */
+    z-index: 2; /* Increase the z-index to ensure the title is above the overlay */
+    color: white;
+}
+
+.Cgcontents .Cg-sub {
+    background-color: #FF8C00;
+    position: relative;
+    z-index: 2;
+    border-radius: 7px;
+    padding: 1px 6px ;
+    border: none;
+    
+}
+
+.Cg-sub span {
+    color: white;
+    font-family: "Poppins", serif;
+
+}

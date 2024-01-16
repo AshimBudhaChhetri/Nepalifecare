@@ -1,0 +1,57 @@
+.counsel-main-div {
+    padding-top: 40px;
+}
+
+
+.counsel-main-div .counsel-header {
+    padding-bottom: 40px;
+    
+}
+
+.counsel-main-div .counsel-header .counsel-small-text {
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    color: #ef5f34;
+}
+
+.counsel-main-div .counsel-header .counsel-title {
+    font-size: 40px;
+    font-family:"Roboto Slab", serif ;
+    color: #212158;
+}
+
+.img-counsel {
+    width: 470px;
+    height: 420px;
+    
+}
+
+.img-counsel  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    
+}
+
+.counsel-contents {
+    color: #4f555a;
+        font-family: "Mulish", sans-serif;
+        
+        font-size: 19px;
+}
+
+
+
+@media only screen and (max-width: 767px)
+
+{
+
+
+.img-counsel {
+    width: 400px;
+    height: 380px;
+    
+}
+
+
+}

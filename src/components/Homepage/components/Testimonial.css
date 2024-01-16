@@ -1,0 +1,248 @@
+/* Add these styles to your existing Testimonial.css file */
+
+/* Testimonial Section */
+.main-div-testimonial {
+  
+    
+}
+
+.testimonial-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.testimonial-title {
+    color: #ef5f34;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 6px;
+}
+
+.testimonial-text {
+    font-size: 24px;
+    color: #212158;
+    font-family: "Roboto Slab", serif;
+}
+
+.testimonial-message {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    padding-top: 16px;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Add these styles to your existing Testimonial.css file */
+
+/* Testimonial Section */
+/* Add these styles to your existing Testimonial.css file */
+
+/* Testimonial Section */
+
+  .testimonial-slider {
+    margin-top: 30px;
+    
+  }
+  
+  .carousel {
+    
+    
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+
+  .testimonial-main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+  }
+  
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -60px;
+ 
+  }
+  
+  .img-carousel {
+    width: 140px; /* Adjust the width as needed */
+    height: 140px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    
+  }
+  
+  .img-carousel .test-image {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .testimonial-card .test-text {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 20px;
+    
+   
+  }
+  
+  .testimonial-card .test-name {
+    color: #212158;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+  }
+  
+  .test-designation {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+  }
+
+  .apos {
+    position: absolute;
+    z-index: 3;
+    height: 5px;
+    width: 5;
+  }
+  
+  /* Add these styles to your existing Testimonial.css file */
+
+/* Testimonial Section */
+/* ... (Your existing styles) */
+
+/* Testimonial Slider */
+.testimonial-slider .carousel-control-prev-icon,
+.testimonial-slider .carousel-control-next-icon {
+  filter: invert(1) sepia(1) hue-rotate(180deg) brightness(1.5) saturate(3);
+}
+
+
+@media only screen and (max-width: 767px) {
+  .testimonial-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.testimonial-title {
+    color: #ef5f34;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 6px;
+    font-size: 32px;
+}
+
+.testimonial-text {
+    font-size: 50px;
+    color: #212158;
+    font-family: "Roboto Slab", serif;
+}
+
+.testimonial-message {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    padding-top: 16px;
+    font-size: 16px;
+    margin: 0;
+}
+  
+  .testimonial-main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+
+    
+  }
+
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+     
+  }
+  .img-carousel {
+    width: 150px; /* Adjust the width as needed */
+    height: 140px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    
+  }
+  
+  .img-carousel .test-image {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .testimonial-card .test-text {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 20px;
+   
+    font-size: 16px;
+    font-weight: 600;
+    
+   
+  }
+  
+  .testimonial-card .test-name {
+    color: #212158;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+  }
+  
+  .test-designation {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+  }
+
+  .apos {
+    position: absolute;
+    z-index: 3;
+    height: 5px;
+    width: 5;
+  }
+  .testimonial-slider .carousel-control-prev-icon,
+.testimonial-slider .carousel-control-next-icon {
+  filter: invert(1) sepia(1) hue-rotate(180deg) brightness(1.5) saturate(3);
+}
+
+
+
+}

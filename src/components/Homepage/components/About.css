@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+
+
+
+.main-about-div {
+ 
+    padding-bottom: 60px;
+}
+.about-image img{
+    height: 550px;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+}
+
+
+.about-content .about-title {
+    color: #ef5f34;
+    font-family: "Roboto Slab",serif;
+    margin: 0px 0px 10px;
+}
+
+
+.about-content .about-text {
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+    color: #212158;
+    line-height: 55px;
+}
+
+.about-content .about-message-1 {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    padding-top: 16px;
+}
+.about-content .about-message-2 {
+    color: #4f555a;
+    font-family: "Mulish", sans-serif;
+    
+}
+.about-content ul {
+    list-style: none; /* Remove default list style */
+    margin-bottom: 30px;
+    padding-left: 0%;
+}
+
+.about-content ul li {
+    font-family: "Mulish", sans-serif;
+    color: #4f555a;
+    position: relative;
+    padding-right: 20px;
+    
+  
+}
+
+
+.about-content .about-button {
+       background: linear-gradient(to left, #41b2a5, rgba(93, 196, 184, 0.75));
+       padding-top: 8px;
+       padding-bottom: 8px;
+       padding-left: 20px;
+       padding-right: 20px;
+       border-color: green;
+       border-radius: 7px;
+}
+.about-content .about-button span {
+    color: white;
+    font-size: 19px;
+    
+}
+
+@media only screen and (max-width: 767px)
+
+{
+
+
+    .about-image img{
+        height: 550px;
+        width: 100%;
+        border-radius: 50% 50% 0 0;
+    }
+
+    .about-content .about-title {
+        padding-top: 5px;
+        color: #ef5f34;
+        font-size: 32px;
+        font-family: "Roboto Slab",serif;
+        margin: 0px 0px 10px;
+    }
+
+    .about-content .about-text {
+        font-family: "Roboto Slab", serif;
+        font-size: 50px;
+        
+        color: #212158;
+        line-height: 55px;
+        line-height: 47px;
+    }
+
+    .about-content .about-message-1 {
+        color: #4f555a;
+        font-family: "Mulish", sans-serif;
+        padding-top: 16px;
+        font-size: 22px;
+    }
+    .about-content .about-message-2 {
+        color: #4f555a;
+        font-family: "Mulish", sans-serif;
+        font-size: 22px;
+        
+    }
+
+    .about-content ul {
+        list-style: none; /* Remove default list style */
+        margin-bottom: 30px;
+        padding-left: 0%;
+    }
+    
+    .about-content ul li {
+        font-family: "Mulish", sans-serif;
+        color: #4f555a;
+        position: relative;
+    
+        font-size: 22px;
+        
+        
+      
+    }
+
+    .about-content .about-button {
+        background: linear-gradient(to left, #41b2a5, rgba(93, 196, 184, 0.75));
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: green;
+        border-radius: 7px;
+        
+ }
+ .about-content .about-button span {
+     color: white;
+     font-size: 22px;
+     
+ }
+ 
+    
+    
+}
