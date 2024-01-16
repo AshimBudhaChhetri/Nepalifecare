@@ -1,0 +1,21 @@
+.pastheader-main-div {
+    padding-top: 60px;
+}
+
+
+.pastheader-main-div .past-header {
+    padding-bottom: 40px;
+    
+}
+
+.pastheader-main-div .past-header .past-small-text {
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    color: #ef5f34;
+}
+
+.pastheader-main-div .past-header .past-title {
+    font-size: 40px;
+    font-family:"Roboto Slab", serif ;
+    color: #212158;
+}
